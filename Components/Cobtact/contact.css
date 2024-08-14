@@ -1,0 +1,50 @@
+.container-contact{
+  display: flex;
+  flex-direction: column;
+}
+#contact-text{
+width: 100%;
+color: #FF004F;
+}
+
+ .row-contact{
+  width: 100%;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+.right-contact{
+  width: 60%;
+}
+#exampleFormControlInput1, #exampleFormControlTextarea1{
+  background-color:rgb(17,17,17);
+  border: none;
+}
+#card-contact{
+  background-color: rgb(0, 0, 0);
+}
+.contact-title{
+  font-size: 50px;
+  color: whitesmoke;
+}
+.fa-solid{
+  color: #FF004F;
+}
+@media screen and (max-width:650px) {
+  .row-contact{
+    flex-direction: column;
+  }
+  .right-contact{
+    width: 100%;
+  }
+}
+input{
+  color: wheat !important;
+}
+input::-webkit-input-placeholder {
+  color: #4e4b4b !important;
+  font-size: 15px;
+}
+#exampleFormControlTextarea1{
+  color: wheat !important;
+}

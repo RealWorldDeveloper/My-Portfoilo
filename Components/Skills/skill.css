@@ -1,0 +1,61 @@
+.container-skill{
+  display: flex;
+  flex-direction: column;
+  border-bottom: 1px solid #343434;
+}
+.container-skill h1{
+  text-align: start;
+  width: 100%;
+  color: #FF004F;
+}
+
+.container-skill .row .img{
+  display: flex;
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+  width: 100px;
+  padding: 10px 0px;
+}
+
+.container-skill .row img{
+border-radius: 50%;
+width: 100%;
+height: 100%;
+}
+#card-skill{
+  margin: 20px 0px;
+  flex-basis: 31%;
+  background-color: rgb(17,17,17);
+  color: wheat;
+  position: relative;
+  border-radius: 0.8rem;
+}
+@property --angle{
+  syntax: '<angle>';
+  initial-value: 0deg;
+  inherits: false;
+}
+
+#card-skill::after, #card-skill::before{
+   content: '';
+  position: absolute;
+  width: 101%;
+  height: 103%;
+  background-image: conic-gradient(from var(--angle),transparent 80%,#FF004F);
+  top: 50%;
+  left: 50%;
+  translate: -50% -50%;
+  z-index: -1;
+  padding: 3px;
+  animation: 3s spin linear infinite;
+  border-radius: 0.8rem;
+}
+@keyframes spin{
+  from{--angle:0deg}
+  to{--angle:360deg}
+}
+#card-skill::before{
+  filter: blur(1.1rem);
+  opacity: 0.4;
+}

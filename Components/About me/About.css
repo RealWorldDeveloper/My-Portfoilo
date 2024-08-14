@@ -1,0 +1,103 @@
+:root{
+--box-shadow: 1px 1px 5px 5px  rgba(255, 0, 79, 100) 
+}
+.container{
+display: flex;
+justify-content: space-between;
+align-items: center; 
+}
+.about-container{
+  margin-top: 10px;
+  border-bottom: 1px solid #343434;
+}
+.left{
+  border: 1px solid #FF004F ;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: start;
+  width: 60%;
+  /* box-shadow: var(--box-shadow); */
+}
+.left h1{
+  font-size: 50px;
+}
+.left strong{
+  background: linear-gradient(90deg,#00ffff,#FF004F);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.image{
+  width: 280px;
+  height: 280px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  background-image: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.8)), url(images/door.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position:left
+}
+.image img{
+  animation-name: imageAnimation;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+
+@media screen and (max-width:650px) {
+  .left{
+    position: relative;
+  }
+  .right{
+    position: absolute;
+    top: 30%;
+    left: 45%;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+    opacity: 0.6;
+  }
+
+}
+
+
+
+
+@keyframes imageAnimation{
+  0%{
+border-color: rgb(255, 0, 79, 100);
+transform: translate(0,0px);
+/* box-shadow: 5px 5px 40px 20px rgb(255, 0, 79, 100); */
+  }
+  25%{
+    border-color: rgb(255, 230, 0);
+    /* box-shadow: 5px 5px 40px 20px rgb(255, 230, 0); */
+  }
+  50%{
+    /* border-color: rgb(2, 122, 124); */
+    transform: translate(0,20px);
+    /* box-shadow: 5px 5px 40px 20px rgb(2, 122, 124); */
+  }
+  75%{
+    border-color: rgb(159, 22, 22);
+/* box-shadow: 5px 5px 40px 20px rgb(159, 22, 22); */
+  }
+  100%{
+    border-color: rgb(240, 1, 29);
+transform: translate(0,-0px);
+/* box-shadow: 5px 5px 40px 20px rgb(240, 1, 29); */
+  }
+}
+@media screen and (max-width:600px) {
+  .about-container{
+  flex-direction: column;
+  .left{
+    width: 100%;
+    text-align: start;
+  }
+  .left h1{
+    font-size: 27px;
+  }
+  }
+
+}

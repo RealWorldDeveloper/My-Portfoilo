@@ -1,0 +1,23 @@
+.container-qualification{
+  display: flex;
+  flex-direction: column;  
+  border-bottom: 1px solid #343434;
+}
+.container-qualification h1{
+  text-align: start;
+  color: #FF004F ;
+  width: 100%;
+}
+
+#card-qualification{
+  background-color: rgb(17,17,17);
+  color: wheat;
+}
+/* #card-qualification img{
+  transition: 1s;
+}
+
+#card-qualification img:hover{
+  transform: scale(2.1);
+  transition: 1s;
+} */
