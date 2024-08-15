@@ -12,7 +12,7 @@ function Qualification() {
 
             {Myqualification.map(items => {
               return(
-                 <div class="col" data-aos = 'flip-right' data-aos-duration ='1000'>
+                 <div class="col">
                 <div class="card h-100" id="card-qualification">
                 <img src={items.image} class="card-img-top" alt="..." />
                 <div class="card-body">

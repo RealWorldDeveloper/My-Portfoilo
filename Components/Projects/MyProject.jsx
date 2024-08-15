@@ -11,7 +11,7 @@ function MyProject() {
           {project.map((items) => {
             return (
               <div class="col" >
-                <div class="card h-100 p-3" id="card-qualification" data-aos="flip-left"data-aos-easing="ease-out-cubic"data-aos-duration="2000">
+                <div class="card h-100 p-3" id="card-qualification">
                   <div className="project-image"><img src={items.image} class="card-img-top" alt="..." /></div>
                   <div class="card-body">
                     <h5 class="card-title">{items.Title}</h5>
