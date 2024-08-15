@@ -11,8 +11,8 @@ function MySkill() {
 {mySkill.map(items => {
 return (
 
-  <div class="col">
-    <div class="card h-100" id="card-skill">
+  <div class="col"data-aos = 'flip-left' data-aos-duration ='1000'>
+    <div class="card h-100" id="card-skill" >
       <div className="img"><img src={items.Image} class="card-img-top" alt="..."/></div>
       <div class="card-body">
         <h5 class="card-title">{items.Title}</h5>

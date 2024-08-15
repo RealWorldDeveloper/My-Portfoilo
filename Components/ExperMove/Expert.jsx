@@ -25,7 +25,7 @@ function Expert() {
 {icons.map(items => {
 return(
   
-  <div className="expert-image p-3">
+  <div className="expert-image p-3" >
     <img src={items.Image} alt="" />
   </div>
 

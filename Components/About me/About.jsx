@@ -1,17 +1,34 @@
-import React from 'react'
+import React, { useEffect, useRef } from 'react'
 import './About.css'
+import typed from 'typed.js'
+import Typed from 'typed.js'
+
 
 function About() {
+const typedRef = useRef(null)
+useEffect(()=>{
+  const options ={
+    strings: ['Md Ain Uddin Ahmmad' , 'From London, UK'],
+    typeSpeed:50,
+    backSpeed:50,
+    loop: true
+  }
+  const typed = new Typed(typedRef.current, options)
+  return ()=>{
+    typed.destroy()
+  }
+},[])
+
   return (
     <React.Fragment>
       <div className="container about-container py-5">
-      <div className="left">
+      <div className="left" data-aos = 'fade-up-right' data-aos-duration ='1000'>
         <h5 className='text-light'>Welcome to my Coding World</h5>
-        <h1 className='text-light'>Hi I am <strong>Md Ain Uddin Ahmmad</strong></h1>
+        <h1 className='text-light fs-3' >Hi I am <strong ref={typedRef}></strong></h1>
         <h3 className='text-light'>Full Stack Developer</h3>
       <a href="" className='btn btn-outline-warning'>Download</a>
       </div>
-      <div className="right">
+      <div className="right" data-aos = 'fade-left' data-aos-duration ='1000'>
         <div className="image">
           <img src="images/profile.png" alt="" />
         </div>

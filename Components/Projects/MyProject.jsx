@@ -10,8 +10,8 @@ function MyProject() {
         <div class="row row-cols-1 row-cols-sm-4 g-4">
           {project.map((items) => {
             return (
-              <div class="col">
-                <div class="card h-100 p-3" id="card-qualification">
+              <div class="col" >
+                <div class="card h-100 p-3" id="card-qualification" data-aos="flip-left"data-aos-easing="ease-out-cubic"data-aos-duration="2000">
                   <div className="project-image"><img src={items.image} class="card-img-top" alt="..." /></div>
                   <div class="card-body">
                     <h5 class="card-title">{items.Title}</h5>

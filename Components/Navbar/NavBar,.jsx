@@ -4,7 +4,7 @@ import './Navbar.css'
 
 function HeaderNav() {
   return (
- <nav class="navbar navbar-expand-lg">
+ <nav class="navbar navbar-expand-lg" data-aos = 'fade-down' data-aos-duration ='1000' >
   <div class="container nav-container py-3">
     <div class="navbar-brand text-light" href="#">My Logo</div>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">

@@ -7,7 +7,7 @@ function Contact() {
       <div className="container container-contact py-3">
         <h1 className="py-3" id="contact-text">Get in Touch</h1>
         <div className="row-contact">
-          <div className="left-contact">
+          <div className="left-contact" data-aos = 'fade-down-right' data-aos-duration ='1000'>
           <div class="card" style= {{width: '23rem'}} id="card-contact">
 
             <div class="card-body">
@@ -23,7 +23,7 @@ function Contact() {
           </div>
 
           </div>
-          <form action="" className="right-contact">
+          <form action="" className="right-contact" data-aos = 'fade-up-left' data-aos-duration ='1000'>
           
           <div class="mb-3">
           <label for="exampleFormControlInput1" class="form-label text-light">Your Name</label>
