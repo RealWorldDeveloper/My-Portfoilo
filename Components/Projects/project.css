@@ -10,35 +10,14 @@
   width: 100%;
   color: #FF004F;
 }
-.container-project .row{
+.project-image{
   display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-  width: 100%;
-  flex-wrap: wrap;
-  padding: 10px;
-}
-.container-skill .row .image-project{
-  display: flex;
-  align-items: center;
   justify-content: center;
+  align-items: center;
+  width: 95%;
+  margin: auto;
 }
-
-.container-skill .row img{
-width: 50%;
-}
-.card-project{
-  padding: 10px;
-  margin: 20px 0px;
-  flex-basis: 31%;
-  background-color: #060606;
-  color: wheat;
+.project-image img{
+  width: 100%;
   border-radius: 0.8rem;
-  position: relative;
-}
-@media screen and (max-width:650px) {
-  .card-project{
-    flex-basis: 100%;
-    
-  }
 }

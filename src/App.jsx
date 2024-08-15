@@ -8,6 +8,7 @@ import Qualification from "../Components/Qualifications/Qualification";
 import Contact from "../Components/Cobtact/Contact";
 
 function App() {
+
   return (
     <React.Fragment>
       <div className="app">
