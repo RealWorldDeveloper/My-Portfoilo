@@ -22,13 +22,13 @@ useEffect(()=>{
   return (
     <React.Fragment>
       <div className="container about-container py-5">
-      <div className="left" data-aos = 'fade-up-right' data-aos-duration ='1000'>
+      <div className="left" >
         <h5 className='text-light'>Welcome to my Coding World</h5>
         <h1 className='text-light fs-3' >Hi I am <strong ref={typedRef}></strong></h1>
         <h3 className='text-light'>Full Stack Developer</h3>
       <a href="" className='btn btn-outline-warning'>Download</a>
       </div>
-      <div className="right" data-aos = 'fade-left' data-aos-duration ='1000'>
+      <div className="right">
         <div className="image">
           <img src="images/profile.png" alt="" />
         </div>

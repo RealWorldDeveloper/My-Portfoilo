@@ -22,7 +22,7 @@ align-items: center;
   font-size: 50px;
 }
 .left strong{
-  background: linear-gradient(90deg,#00ffff,#FF004F);
+  background: linear-gradient(90deg,#37ff00,#FF004F);
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
