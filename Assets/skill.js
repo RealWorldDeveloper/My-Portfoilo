@@ -2,7 +2,7 @@ export const mySkill = [
 {
  Title: 'Web Development',
  Description: ' Highly skilled on creating web application by HTML,css,javascript, react,bootstrap anf much more',
- Image: '/images/Front.png'
+ Image: '/public/images/Front.png'
 },
 {
   Title: 'App Development',
