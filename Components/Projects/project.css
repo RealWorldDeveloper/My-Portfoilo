@@ -21,3 +21,11 @@
   width: 100%;
   border-radius: 0.8rem;
 }
+
+#card-project{
+background-color: rgb(17,17,17);
+border: 1px solid #343434;
+color: wheat;
+box-shadow: 1px 1px 3px 3px rgb(34, 34, 34);
+
+}

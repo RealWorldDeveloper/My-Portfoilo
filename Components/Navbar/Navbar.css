@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
 .navContainer{
   font-family: 'Uber Move Medium';
 }
@@ -26,11 +28,25 @@ a:hover::after{
  opacity: 1;
 }
 .navbar-brand{
+  font-family: "Permanent Marker", cursive;
+  font-weight: 400;
+  font-style: normal;
   width: 3.7rem;
-  height: 3.7rem;
+  color: #FF004F !important;
 }
 .navbar-brand img{
   width: 100%;
   height: 100%;
   border-radius: 100%;
+}
+@media screen and (max-width:650px) {
+  a:hover::after{
+    opacity: 0;
+   }
+   a:hover{
+    cursor: pointer;
+    color: #FF004F !important;
+    transition: all 0.2s
+  }
+  
 }

@@ -12,12 +12,5 @@
 #card-qualification{
   background-color: rgb(17,17,17);
   color: wheat;
+  border: 1px solid #343434;
 }
-/* #card-qualification img{
-  transition: 1s;
-}
-
-#card-qualification img:hover{
-  transform: scale(2.1);
-  transition: 1s;
-} */

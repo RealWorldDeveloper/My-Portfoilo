@@ -8,6 +8,9 @@
   width: 100%;
   color: #FF004F;
 }
+.card-title{
+  color: #FF004F !important;
+}
 
 .container-skill .row .img{
   display: flex;
@@ -27,6 +30,7 @@ height: 100%;
   margin: 20px 0px;
   flex-basis: 31%;
   background-color: rgb(17,17,17);
+  border: 1px solid #343434;
   color: wheat;
   position: relative;
   border-radius: 0.8rem;
