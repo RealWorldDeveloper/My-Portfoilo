@@ -34,7 +34,7 @@ align-items: center;
   justify-content: center;
   align-items: center;
   position: relative;
-  background-image: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.8)), url(images/door.jpg);
+  background-image: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.8)), url('../../public/images/door.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   background-position:left
