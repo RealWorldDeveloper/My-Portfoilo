@@ -1,6 +1,6 @@
 import React from "react";
 import './qualification.css'
-import { Myqualification } from "../../Assets/myQua";
+import Myqualification from '../../src/Assets/myQua';
 
 function Qualification() {
   return (
