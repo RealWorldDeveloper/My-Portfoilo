@@ -1,6 +1,5 @@
 import React, { useEffect, useRef } from 'react'
 import './About.css'
-import typed from 'typed.js'
 import Typed from 'typed.js'
 
 
