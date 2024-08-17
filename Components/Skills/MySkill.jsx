@@ -1,5 +1,5 @@
 import React from "react";
-import { mySkill } from "/Assets/skill";
+import { mySkill } from "../../src/Assets/skill";
 import "./skill.css";
 
 function MySkill() {
