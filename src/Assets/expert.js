@@ -1,29 +1,29 @@
 export const icons = [
   {
-    Image:'/images/icons/html-5.png',
+    Image:'images/icons/html-5.png',
   },
   {
-    Image:'/images/icons/css-3.png',
+    Image:'images/icons/css-3.png',
   },
   {
-    Image:'/images/icons/bootstrap.png',
+    Image:'images/icons/bootstrap.png',
   },
   {
-    Image:'/images/icons/js.png',
+    Image:'images/icons/js.png',
   },
   {
-    Image:'/images/icons/python.png',
+    Image:'images/icons/python.png',
   },
   {
-    Image:'/images/icons/redux.png',
+    Image:'images/icons/redux.png',
   },
   {
-    Image:'/images/icons/physics.png',
+    Image:'images/icons/physics.png',
   },
   {
-    Image:'/images/icons/mongodb.png',
+    Image:'images/icons/mongodb.png',
   },
   {
-    Image:'/images/icons/node.png',
+    Image:'images/icons/node.png',
   }
 ]
