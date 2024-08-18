@@ -5,8 +5,8 @@ import {Myqualification} from '../../src/Assets/myQua';
 function Qualification() {
   return (
     <React.Fragment>
-      <div className="container container-qualification py-4">
-        <h1 className="py-4">Qualifications And Achivements</h1>
+      <div className="container container-qualification" id="qualification">
+        <h1 className="py-1">Qualifications And Achivements</h1>
         <div class="row row-cols-1 row-cols-sm-3 g-4">
          
 

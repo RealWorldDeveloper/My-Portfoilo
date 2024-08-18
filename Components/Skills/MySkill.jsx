@@ -5,7 +5,7 @@ import "./skill.css";
 function MySkill() {
   return (
  <React.Fragment>
-  <div className="container container-skill py-5">
+  <div className="container container-skill py-5" id="skill">
     <h1 className="py-3">My Skills</h1>
 <div class="row row-cols-1 row-cols-md-4 g-4">
 {mySkill.map(items => {

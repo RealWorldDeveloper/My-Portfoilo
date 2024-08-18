@@ -1,5 +1,6 @@
 import React from 'react'
 import './Navbar.css'
+import AnchorLink from 'react-anchor-link-smooth-scroll'
 
 
 function HeaderNav() {
@@ -19,19 +20,20 @@ function HeaderNav() {
           <a class="nav-link text-light fs-6" href="#">About Me</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link text-light fs-6" href="#">Qualifications</a>
+          <AnchorLink className = 'anchor-link' offset = {50} href='#qualification'><a class="nav-link text-light fs-6">Qualifications</a></AnchorLink>
         </li>
         <li class="nav-item">
-          <a class="nav-link text-light fs-6" href="#">Skill</a>
+        <AnchorLink className = 'anchor-link' offset = {50} href='#skill'><a class="nav-link text-light fs-6">Skill</a></AnchorLink>
         </li>
         <li class="nav-item">
-          <a class="nav-link text-light fs-6" href="#">Project</a>
-        </li>
+        <AnchorLink className = 'anchor-link' offset = {50} href='#project'><a class="nav-link text-light fs-6">Project</a></AnchorLink>
+         </li>
         <li class="nav-item">
-          <a class="nav-link text-light fs-6" href="#">Contact Me</a>
-        </li>
+        <AnchorLink className = 'anchor-link' offset = {50} href='#contact'><a class="nav-link text-light fs-6">Contact Me</a></AnchorLink>
+         </li>
       </ul>
-      <button type="button" class="btn btn-info mb-3">Connect Me</button>
+      <button type="button" class="btn btn-primary mb-3">Connect Me</button>
+     
     </div>
   </div>
 </nav>

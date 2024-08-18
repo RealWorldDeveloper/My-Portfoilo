@@ -8,16 +8,27 @@ border-bottom: 1px solid #343434;
   display: flex;
   justify-content: center;
   align-items: center;
+  
 }
 
 .container-expert h1{
   color: #FF004F;
 }
+.icons-div{
+  background-color: #343434;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
 .expert-image img{
-  width: 30%;
-  height: 30%;
+  width: 68%;
+  height: 68%;
   border-radius: 50%;
+  
 }
 @media screen and (max-width:650px) {
   .expert-image img{

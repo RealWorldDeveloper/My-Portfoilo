@@ -9,7 +9,7 @@ function Expert() {
   var settings = {
     dots: true,
     infinite: true,
-    slidesToShow: 5,
+    slidesToShow: 6,
     slidesToScroll: 1,
     autoplay: true,
     speed: 2000,
@@ -19,15 +19,19 @@ function Expert() {
 
   return (
     <React.Fragment>
-      <div className="container-expert py-4">
+      <div className="container-expert py-4" id="expert">
         <h1 text-light className="py-4">Expert On</h1>
         <Slider {...settings}>
 {icons.map(items => {
 return(
   
-  <div className="expert-image p-3" >
+  <div className=" expert-image p-3" >
+    <div className="icons-div">
     <img src={items.Image} alt="" />
+    </div>
+    
   </div>
+  
 
 )
 })}

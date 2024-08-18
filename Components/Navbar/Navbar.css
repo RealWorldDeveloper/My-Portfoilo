@@ -8,7 +8,8 @@
 }
 a{
   position: relative;
-  transition: all 0.2s
+  transition: all 0.2s;
+  text-decoration: none !important;
 }
 
 a:after{

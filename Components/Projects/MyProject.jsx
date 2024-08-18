@@ -5,7 +5,7 @@ import "./project.css";
 function MyProject() {
   return (
     <React.Fragment>
-      <div className="container container-project p-4">
+      <div className="container container-project p-4" id="project">
         <h1 className="py-4">Projects</h1>
         <div class="row row-cols-1 row-cols-sm-4 g-4">
           {project.map((items) => {
