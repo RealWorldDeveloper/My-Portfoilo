@@ -9,7 +9,7 @@ function Expert() {
   var settings = {
     dots: true,
     infinite: true,
-    slidesToShow: 6,
+    slidesToShow: 5,
     slidesToScroll: 1,
     autoplay: true,
     speed: 2000,
