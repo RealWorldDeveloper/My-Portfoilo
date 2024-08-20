@@ -15,7 +15,11 @@ function MyProject() {
                   <div className="project-image"><img src={items.image} class="card-img-top" alt="..." /></div>
                   <div class="card-body">
                     <h5 class="card-title">{items.Title}</h5>
-                    <p class="card-text">This is a longer card</p>
+                    <p class="card-text ">{items.Description}</p>
+                    <div className="card-text-container">
+                      <div className="card-text-container-image"><a href={items.url}><img src="images/projects/code.png" alt="" /></a></div>
+                      <div className="card-text-container-image"><img src="images/projects/github.png" alt="" /></div>
+                    </div>
                   </div>
                 </div>
               </div>

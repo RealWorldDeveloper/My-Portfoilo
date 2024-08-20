@@ -1,38 +1,41 @@
 export const project = [
 {
   Title: 'Ecommerce Clone',
-  Description: 'very Nice and Attractive website',
+  Description: 'Personal eCommerce Clone with react framework',
   image: 'images/projects/E-commerce.jpg'
 },
 {
   Title: 'To DO List',
-  Description: 'very Nice and Attractive website',
+  Description: 'Simple and easy To Do List for begainners',
   image: 'images/projects/to-do.jpg'
 },
 {
   Title: 'Live Weather Forcast',
-  Description: 'very Nice and Attractive website',
-  image: 'images/projects/weather.jpg'
+  Description: 'Live weather forCast for All over in the World ',
+  image: 'images/projects/weather.jpg',
+  url: 'https://github.com/RealWorldDeveloper/weather-app'
 },
 {
   Title: 'Image Slide Show',
-  Description: 'very Nice and Attractive website' ,
+  Description: 'Simple Slide Show using HTML CSS and JavaScript' ,
   image: 'images/projects/slide.png '
 },
 {
-  Title: 'Car-Registraion Check',
-  Description: 'very Nice and Attractive website' ,
+  Title: 'Car-Reg Check',
+  Description: 'Car Registraion Check bt using DataBase' ,
   image: 'images/projects/reg-check.jpg '
 },
 {
   Title: 'Guess the Number',
-  Description: 'very Nice and Attractive website' ,
-  image: 'images/projects/guess.png '
+  Description: 'Simple Game for JavaScript begainers' ,
+  image: 'images/projects/guess.png ',
+  url: 'https://github.com/RealWorldDeveloper/Guess-The-game'
 },
 {
   Title: 'Car Website-filtering',
-  Description: 'very Nice and Attractive website' ,
-  image: 'images/projects/car-filter.png '
+  Description: 'Attractive and Stylish Car show room Project' ,
+  image: 'images/projects/car-filter.png ',
+  url: 'https://github.com/RealWorldDeveloper/Car-data-Filter'
 }
 
 ]

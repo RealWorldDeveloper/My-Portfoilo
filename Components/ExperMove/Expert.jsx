@@ -19,7 +19,7 @@ function Expert() {
 
   return (
     <React.Fragment>
-      <div className="container-expert py-4" id="expert">
+      <div className="container-expert py-3" id="expert">
         <h1 text-light className="py-4">Expert On</h1>
         <Slider {...settings}>
 {icons.map(items => {
