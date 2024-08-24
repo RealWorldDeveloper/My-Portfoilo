@@ -18,7 +18,7 @@ function MyProject() {
                     <p class="card-text ">{items.Description}</p>
                     <div className="card-text-container">
                       <div className="card-text-container-image"><a href={items.url}><img src="images/projects/code.png" alt="" /></a></div>
-                      <div className="card-text-container-image"><img src="images/projects/github.png" alt="" /></div>
+                      <div className="card-text-container-image"><a href={items.github}><img src="images/projects/github.png" alt="" /></a></div>
                     </div>
                   </div>
                 </div>
