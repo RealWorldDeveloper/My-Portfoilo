@@ -16,13 +16,12 @@ function Qualification() {
                 <div class="card h-100 py-2" id="card-qualification">
                 <img src={items.image} class="card-img-top" alt="..." />
                 <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">
-                    This is a longer card 
-                  </p>
+                  <h3 >Title: {items.Title}</h3>
+                  <h4>Level: {items.Level}</h4>
+                  <h5 >Year: {items.Year}</h5>
+                  <h6>Institution: {items.Institution}</h6>
                 </div>
-                <div className="caption"></div>
-              </div>
+                </div>
               </div>
               )
 
